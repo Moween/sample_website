@@ -1,0 +1,48 @@
+nav{
+  float:right;
+  padding:5px;
+  border:1px solid red;
+}
+
+nav>a{
+  text-decoration: none;
+}
+
+body>header,h1{
+  clear:right;
+}
+a{
+  text-decoration: none;
+}
+span{
+  color:red;
+}
+header>h1,h2:only-of-type{
+  text-align:center;
+  margin: 10 0 80px;
+}
+blockquote{
+  font-style: italic; 
+  font-size: 20px;
+  background-color:#ccc;
+  padding:2px 20px;
+}
+.box-sizing{
+  width: 500px; 
+  margin: 20px auto; 
+  padding: 30px;
+  background-color: #fafafa;
+}
+.img-block{
+  display:block;
+  margin:0 auto;
+}
+
+#img{ 
+  float:left;
+  margin:0 40px 0 0;
+}
+
+td{
+  padding:10px;
+}
